@@ -1,4 +1,4 @@
-package com.xingon.Client.common;
+package com.xingon.client.common;
 
 public class Message {
     private static final long serialVersionUID = 1L;

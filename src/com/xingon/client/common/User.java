@@ -1,4 +1,4 @@
-package com.xingon.Client.common;
+package com.xingon.client.common;
 
 import java.io.Serializable;
 
@@ -8,6 +8,13 @@ public class User implements Serializable {
     private String userId; // 用户id
     private String passwd; // 用户密码
 
+    public User() {
+
+    }
+    public User(String userId, String passwd) {
+        this.userId = userId;
+        this.passwd = passwd;
+    }
 
     public String getUserId() {
         return userId;
