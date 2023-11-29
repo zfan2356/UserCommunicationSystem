@@ -1,7 +1,6 @@
-package com.xingon.client.service;
+package com.xingon.client.thread;
 
 import java.util.HashMap;
-import java.util.HashSet;
 
 public class ManageClientConnectServerThread {
     // 将多个线程放入一个hashMap集合中管理. key是用户id

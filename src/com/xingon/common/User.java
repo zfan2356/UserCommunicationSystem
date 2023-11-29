@@ -1,4 +1,4 @@
-package com.xingon.Server.common;
+package com.xingon.common;
 
 import java.io.Serializable;
 

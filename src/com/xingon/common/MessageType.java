@@ -1,4 +1,4 @@
-package com.xingon.client.common;
+package com.xingon.common;
 
 public interface MessageType {
     String MESSAGE_LOGIN_SUCCEED = "1"; // 登录成功

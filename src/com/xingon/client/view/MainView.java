@@ -30,6 +30,7 @@ public class MainView {
                     String pwd = scanner.next();
                     // 需要到服务端去验证用户是否合法
                     if (userClientService.checkUser(userId, pwd)) {
+                        System.out.println("============欢迎 " + userId + " 登录!============");
                         UserMenu userMenu = new UserMenu(userId);
                         while (loop) {
                             int val = userMenu.show();

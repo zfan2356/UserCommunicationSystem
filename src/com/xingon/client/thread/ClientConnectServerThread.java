@@ -1,10 +1,7 @@
-package com.xingon.client.service;
+package com.xingon.client.thread;
 
-import com.xingon.client.common.Message;
-
-import java.io.IOException;
+import com.xingon.common.Message;
 import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
 import java.net.Socket;
 
 public class ClientConnectServerThread extends Thread {
